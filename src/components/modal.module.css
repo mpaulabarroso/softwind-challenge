@@ -9,16 +9,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.content {
-    position: relative;
-    min-width: 100px;
-    min-height: 100px;
-}
-
-.modalButton {
-    position: absolute;
-    background-color: aqua;
-    top: 0;
-    right: 0;
-}

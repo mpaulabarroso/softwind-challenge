@@ -6,11 +6,11 @@ export function Modal({ onPress, toDisplay }) {
     return (
         <div>
             {isOpen &&
-                <div className={styles.container}>
-                    <div className={styles.content}>
-                        {toDisplay}
-                        <button onClick={() => setIsOpen(false)} className={styles.modalButton}>close</button>
-                    </div>
+                <div
+                    onClick={() => setIsOpen(false)}
+                    className={styles.container}
+                >
+                    {toDisplay}
                 </div>
             }
             <div onClick={() => setIsOpen(true)}>{onPress}</div>
