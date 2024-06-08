@@ -17,7 +17,7 @@ export function MainPage() {
                                 image={img}
                                 price={'$ 50000'}
                                 address={'Congreso 1920'}
-                                description={'Cerca del centro y a cuadras del parque'}
+                                description={'Cerca del centro y a cuadras del parque. Acogedora casa adosada de dos dormitorios ubicada en un pintoresco vecindario residencial. Esta encantadora propiedad cuenta con una amplia sala de estar, una cocina moderna totalmente equipada y un hermoso patio trasero perfecto para entretenimiento al aire libre. Con una ubicación conveniente cerca de parques, escuelas y tiendas locales, esta propiedad es ideal para parejas jóvenes o familias que buscan establecerse en un entorno tranquilo y acogedor.'}
                             />
                         }
                         onPress={
@@ -25,7 +25,7 @@ export function MainPage() {
                                 image={img}
                                 price={'$ 50000'}
                                 address={'Congreso 1920'}
-                                description={'Cerca del centro y a cuadras del parque'}
+                                description={'Cerca del centro y a cuadras del parque...'}
                             />
                         }
                     />
